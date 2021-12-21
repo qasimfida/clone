@@ -1,0 +1,1447 @@
+span.country-icon {
+    &:before {
+        content: " ";
+        width: 16px;
+        height: 16px;
+        background-size: 16px 16px;
+        background-repeat: no-repeat;
+        direction: ltr !important;
+    }
+}
+
+span.country-icon {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+
+    &:before {
+        left: 0px;
+        margin: auto;
+    }
+
+    &.xs {
+        &::before {
+            width: 16px;
+            height: 16px;
+            background-size: 16px 16px;
+        }
+    }
+
+    &.big {
+        &::before {
+            width: 32px;
+            height: 32px;
+            background-size: 32px 32px;
+        }
+    }
+
+    &.large {
+        &::before {
+            width: 64px;
+            height: 64px;
+            background-size: 64px 64px;
+        }
+    }
+}
+
+span.country-icon,
+li {
+    &.country-international,
+    &.country-international-clubs,
+    &.country-world {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/world.png");
+        }
+    }
+
+    &.country-europe {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/europe.png");
+        }
+    }
+
+    &.country-asia {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/asia.png");
+        }
+    }
+
+    &.country-africa {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/africa.png");
+        }
+    }
+
+    &.country-bah,
+    &.country-bahamas {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/bahamas.png");
+        }
+    }
+
+    &.country-zam,
+    &.country-zambia {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/zambia.png");
+        }
+    }
+
+    &.country-col,
+    &.country-colombia {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/colombia.png");
+        }
+    }
+
+    &.country-slo,
+    &.country-slovakia {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/slovakia.png");
+        }
+    }
+
+    &.country-bru,
+    &.country-brunei {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/brunei.png");
+        }
+    }
+    &.country-gre,
+    &.country-grenada {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/grenada.png");
+        }
+    }
+
+    &.country-gui,
+    &.country-guinea {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/guinea.png");
+        }
+    }
+
+    &.country-ken,
+    &.country-kenya {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/kenya.png");
+        }
+    }
+
+    &.country-bah,
+    &.country-french-polynesia {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/french-polynesia.png");
+        }
+    }
+
+    &.country-ae,
+    &.country-united-arab-emirates {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/united-arab-emirates.png");
+        }
+    }
+    &.country-sicily {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/sicily.png");
+        }
+    }
+    &.country-cayman-islands {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/cayman-islands.png");
+        }
+    }
+    &.country-sahrawi-arab-democratic-republic {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/sahrawi-arab-democratic-republic.png");
+        }
+    }
+    &.country-egypt {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/egypt.png");
+        }
+    }
+
+    &.country-united-republic-of-tanzania,
+    &.country-tanzania {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/tanzania.png");
+        }
+    }
+    &.country-martinique {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/martinique.png");
+        }
+    }
+    &.country-cape-verde {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/cape-verde.png");
+        }
+    }
+    &.country-united-nations {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/united-nations.png");
+        }
+    }
+    &.country-cyprus {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/cyprus.png");
+        }
+    }
+    &.country-northern-cyprus {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/northern-cyprus.png");
+        }
+    }
+    &.country-austria {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/austria.png");
+        }
+    }
+    &.country-australia {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/australia.png");
+        }
+    }
+    &.country-laos {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/laos.png");
+        }
+    }
+    &.country-armenia {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/armenia.png");
+        }
+    }
+    &.country-madeira {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/madeira.png");
+        }
+    }
+
+    &.country-sa,
+    &.country-south-africa {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/south-africa.png");
+        }
+    }
+    &.country-malasya {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/malasya.png");
+        }
+    }
+    &.country-es,
+    &.country-spain {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/spain.png");
+        }
+    }
+    &.country-suriname {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/suriname.png");
+        }
+    }
+    &.country-fiji {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/fiji.png");
+        }
+    }
+    &.country-netherlands {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/netherlands.png");
+        }
+    }
+    &.country-bhutan {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/bhutan.png");
+        }
+    }
+    &.country-cambodia {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/cambodia.png");
+        }
+    }
+    &.country-tonga {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/tonga.png");
+        }
+    }
+    &.country-burundi {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/burundi.png");
+        }
+    }
+
+    &.country-bra,
+    &.country-brazil {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/brazil.png");
+        }
+    }
+    &.country-guam {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/guam.png");
+        }
+    }
+    &.country-andorra {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/andorra.png");
+        }
+    }
+    &.country-mongolia {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/mongolia.png");
+        }
+    }
+
+    &.country-nor,
+    &.country-norway {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/norway.png");
+        }
+    }
+    &.country-madagascar {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/madagascar.png");
+        }
+    }
+    &.country-ivory-coast {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/ivory-coast.png");
+        }
+    }
+    &.country-ceuta {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/ceuta.png");
+        }
+    }
+    &.country-ukraine {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/ukraine.png");
+        }
+    }
+    &.country-central-african-republic {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/central-african-republic.png");
+        }
+    }
+    &.country-cameroon {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/cameroon.png");
+        }
+    }
+    &.country-france {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/france.png");
+        }
+    }
+    &.country-niger {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/niger.png");
+        }
+    }
+    &.country-guinea-bissau {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/guinea-bissau.png");
+        }
+    }
+    &.country-somalia {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/somalia.png");
+        }
+    }
+    &.country-albania {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/albania.png");
+        }
+    }
+    &.country-vanuatu {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/vanuatu.png");
+        }
+    }
+    &.country-sint-eustatius {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/sint-eustatius.png");
+        }
+    }
+    &.country-monaco {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/monaco.png");
+        }
+    }
+    &.country-montserrat {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/montserrat.png");
+        }
+    }
+    &.country-bosnia-and-herzegovina {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/bosnia-and-herzegovina.png");
+        }
+    }
+    &.country-rapa-nui {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/rapa-nui.png");
+        }
+    }
+    &.country-malawi {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/malawi.png");
+        }
+    }
+    &.country-finland {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/finland.png");
+        }
+    }
+    &.country-papua-new-guinea {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/papua-new-guinea.png");
+        }
+    }
+    &.country-kiribati {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/kiribati.png");
+        }
+    }
+    &.country-hawaii {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/hawaii.png");
+        }
+    }
+    &.country-de,
+    &.country-germany {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/germany.png");
+        }
+    }
+    &.country-equatorial-guinea {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/equatorial-guinea.png");
+        }
+    }
+    &.country-samoa {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/samoa.png");
+        }
+    }
+    &.country-china {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/china.png");
+        }
+    }
+    &.country-switzerland {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/switzerland.png");
+        }
+    }
+    &.country-sao-tome-and-prince {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/sao-tome-and-prince.png");
+        }
+    }
+    &.country-tuvalu-1 {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/tuvalu-1.png");
+        }
+    }
+    &.country-somaliland {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/somaliland.png");
+        }
+    }
+    &.country-kyrgyzstan {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/kyrgyzstan.png");
+        }
+    }
+    &.country-romania {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/romania.png");
+        }
+    }
+
+    &.country-hong-kong-china,
+    &.country-hong-kong {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/hong-kong.png");
+        }
+    }
+    &.country-tuvalu {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/tuvalu.png");
+        }
+    }
+    &.country-wales {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/wales.png");
+        }
+    }
+
+    &.country-irl,
+    &.country-ie,
+    &.country-republic-of-ireland,
+    &.country-ireland {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/ireland.png");
+        }
+    }
+    &.country-northern-ireland {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/northern-ireland.png");
+        }
+    }
+    &.country-iraq {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/iraq.png");
+        }
+    }
+    &.country-british-indian-ocean-territory {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/british-indian-ocean-territory.png");
+        }
+    }
+    &.country-greece {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/greece.png");
+        }
+    }
+    &.country-angola {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/angola.png");
+        }
+    }
+    &.country-british-columbia {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/british-columbia.png");
+        }
+    }
+    &.country-democratic-republic-of-congo {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/democratic-republic-of-congo.png");
+        }
+    }
+    &.country-european-union {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/european-union.png");
+        }
+    }
+    &.country-marshall-island {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/marshall-island.png");
+        }
+    }
+    &.country-canary-islands {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/canary-islands.png");
+        }
+    }
+    &.country-uganda {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/uganda.png");
+        }
+    }
+    &.country-sint-maarten {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/sint-maarten.png");
+        }
+    }
+    &.country-palestine {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/palestine.png");
+        }
+    }
+    &.country-greenland {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/greenland.png");
+        }
+    }
+    &.country-guernsey {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/guernsey.png");
+        }
+    }
+    &.country-bulgaria {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/bulgaria.png");
+        }
+    }
+    &.country-st-barts {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/st-barts.png");
+        }
+    }
+    &.country-puerto-rico {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/puerto-rico.png");
+        }
+    }
+    &.country-st-lucia {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/st-lucia.png");
+        }
+    }
+    &.country-republic-of-the-congo {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/republic-of-the-congo.png");
+        }
+    }
+    &.country-saint-kitts-and-nevis {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/saint-kitts-and-nevis.png");
+        }
+    }
+    &.country-sri-lanka {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/sri-lanka.png");
+        }
+    }
+    &.country-malta {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/malta.png");
+        }
+    }
+    &.country-turks-and-caicos {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/turks-and-caicos.png");
+        }
+    }
+    &.country-vatican-city {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/vatican-city.png");
+        }
+    }
+    &.country-belarus {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/belarus.png");
+        }
+    }
+    &.country-slovenia {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/slovenia.png");
+        }
+    }
+    &.country-belgium {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/belgium.png");
+        }
+    }
+    &.country-senegal {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/senegal.png");
+        }
+    }
+    &.country-nauru {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/nauru.png");
+        }
+    }
+    &.country-vietnam {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/vietnam.png");
+        }
+    }
+    &.country-nigeria {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/nigeria.png");
+        }
+    }
+    &.country-sierra-leone {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/sierra-leone.png");
+        }
+    }
+    &.country-basque-country {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/basque-country.png");
+        }
+    }
+    &.country-mx,
+    &.country-mexico {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/mexico.png");
+        }
+    }
+    &.country-liechtenstein {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/liechtenstein.png");
+        }
+    }
+    &.country-belize {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/belize.png");
+        }
+    }
+    &.country-india {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/india.png");
+        }
+    }
+    &.country-st-vincent-and-the-grenadines {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/st-vincent-and-the-grenadines.png");
+        }
+    }
+    &.country-curacao {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/curacao.png");
+        }
+    }
+    &.country-corsica {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/corsica.png");
+        }
+    }
+    &.country-rwanda {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/rwanda.png");
+        }
+    }
+    &.country-russia {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/russia.png");
+        }
+    }
+    &.country-republic-of-korea,
+    &.country-south-korea {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/south-korea.png");
+        }
+    }
+    &.country-haiti {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/haiti.png");
+        }
+    }
+    &.country-cocos-island {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/cocos-island.png");
+        }
+    }
+    &.country-kazakhstan {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/kazakhstan.png");
+        }
+    }
+    &.country-solomon-islands {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/solomon-islands.png");
+        }
+    }
+    &.country-bahrain {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/bahrain.png");
+        }
+    }
+    &.country-thailand {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/thailand.png");
+        }
+    }
+    &.country-cuba {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/cuba.png");
+        }
+    }
+    &.country-azores-islands {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/azores-islands.png");
+        }
+    }
+    &.country-nepal {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/nepal.png");
+        }
+    }
+    &.country-isle-of-man {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/isle-of-man.png");
+        }
+    }
+    &.country-canada {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/canada.png");
+        }
+    }
+    &.country-aruba {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/aruba.png");
+        }
+    }
+
+    &.country-kuwait,
+    &.country-kwait {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/kwait.png");
+        }
+    }
+    &.country-benin {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/benin.png");
+        }
+    }
+    &.country-luxembourg {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/luxembourg.png");
+        }
+    }
+    &.country-morocco {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/morocco.png");
+        }
+    }
+    &.country-bonaire {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/bonaire.png");
+        }
+    }
+    &.country-cook-islands {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/cook-islands.png");
+        }
+    }
+    &.country-new-zealand {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/new-zealand.png");
+        }
+    }
+    &.country-taiwan {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/taiwan.png");
+        }
+    }
+    &.country-nato {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/nato.png");
+        }
+    }
+    &.country-tunisia {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/tunisia.png");
+        }
+    }
+    &.country-swaziland {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/swaziland.png");
+        }
+    }
+    &.country-jersey {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/jersey.png");
+        }
+    }
+    &.country-christmas-island {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/christmas-island.png");
+        }
+    }
+    &.country-paraguay {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/paraguay.png");
+        }
+    }
+    &.country-comoros {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/comoros.png");
+        }
+    }
+    &.country-oman {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/oman.png");
+        }
+    }
+
+    &.country-gbr,
+    &.country-uk,
+    &.country-united-kingdom {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/united-kingdom.png");
+        }
+    }
+    &.country-honduras {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/honduras.png");
+        }
+    }
+    &.country-mozambique {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/mozambique.png");
+        }
+    }
+    &.country-american-samoa {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/american-samoa.png");
+        }
+    }
+    &.country-el-salvador {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/el-salvador.png");
+        }
+    }
+    &.country-palau {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/palau.png");
+        }
+    }
+    &.country-jamaica {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/jamaica.png");
+        }
+    }
+    &.country-transnistria {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/transnistria.png");
+        }
+    }
+    &.country-balearic-islands {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/balearic-islands.png");
+        }
+    }
+    &.country-moldova {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/moldova.png");
+        }
+    }
+    &.country-latvia {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/latvia.png");
+        }
+    }
+    &.country-mali {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/mali.png");
+        }
+    }
+    &.country-pakistan {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/pakistan.png");
+        }
+    }
+    &.country-croatia {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/croatia.png");
+        }
+    }
+    &.country-panama {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/panama.png");
+        }
+    }
+    &.country-east-timor {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/east-timor.png");
+        }
+    }
+    &.country-afghanistan {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/afghanistan.png");
+        }
+    }
+    &.country-bangladesh {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/bangladesh.png");
+        }
+    }
+
+    &.country-it,
+    &.country-italy {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/italy.png");
+        }
+    }
+    &.country-ghana {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/ghana.png");
+        }
+    }
+    &.country-saudi-arabia {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/saudi-arabia.png");
+        }
+    }
+    &.country-serbia {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/serbia.png");
+        }
+    }
+    &.country-costa-rica {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/costa-rica.png");
+        }
+    }
+    &.country-british-virgin-islands {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/british-virgin-islands.png");
+        }
+    }
+    &.country-galapagos-islands {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/galapagos-islands.png");
+        }
+    }
+    &.country-dominica {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/dominica.png");
+        }
+    }
+    &.country-peru {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/peru.png");
+        }
+    }
+    &.country-denmark {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/denmark.png");
+        }
+    }
+
+    &.country-macau,
+    &.country-macao {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/macao.png");
+        }
+    }
+    &.country-tajikistan {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/tajikistan.png");
+        }
+    }
+
+
+    &.country-us,
+    &.country-usa,
+    &.country-united-states,
+    &.country-united-states-of-america {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/united-states.png");
+        }
+    }
+    &.country-azerbaijan {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/azerbaijan.png");
+        }
+    }
+    &.country-israel {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/israel.png");
+        }
+    }
+    &.country-czech-republic {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/czech-republic.png");
+        }
+    }
+    &.country-maldives {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/maldives.png");
+        }
+    }
+    &.country-north-macedonia,
+    &.country-republic-of-macedonia {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/republic-of-macedonia.png");
+        }
+    }
+    &.country-philippines {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/philippines.png");
+        }
+    }
+    &.country-turkey {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/turkey.png");
+        }
+    }
+    &.country-japan {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/japan.png");
+        }
+    }
+    &.country-tokelau {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/tokelau.png");
+        }
+    }
+    &.country-kosovo {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/kosovo.png");
+        }
+    }
+    &.country-bermuda {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/bermuda.png");
+        }
+    }
+    &.country-iceland {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/iceland.png");
+        }
+    }
+    &.country-syria {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/syria.png");
+        }
+    }
+    &.country-yemen {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/yemen.png");
+        }
+    }
+    &.country-estonia {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/estonia.png");
+        }
+    }
+    &.country-botswana {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/botswana.png");
+        }
+    }
+    &.country-libya {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/libya.png");
+        }
+    }
+    &.country-lebanon {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/lebanon.png");
+        }
+    }
+    &.country-abkhazia {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/abkhazia.png");
+        }
+    }
+    
+    &.country-cl,
+    &.country-chile {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/chile.png");
+        }
+    }
+    &.country-georgia {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/georgia.png");
+        }
+    }
+    &.country-jordan {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/jordan.png");
+        }
+    }
+    &.country-montenegro {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/montenegro.png");
+        }
+    }
+    &.country-myanmar {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/myanmar.png");
+        }
+    }
+    &.country-falkland-islands {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/falkland-islands.png");
+        }
+    }
+    &.country-eritrea {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/eritrea.png");
+        }
+    }
+    &.country-mauritania {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/mauritania.png");
+        }
+    }
+    &.country-burkina-faso {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/burkina-faso.png");
+        }
+    }
+    &.country-gambia {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/gambia.png");
+        }
+    }
+    &.country-antigua-and-barbuda {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/antigua-and-barbuda.png");
+        }
+    }
+    &.country-togo {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/togo.png");
+        }
+    }
+    &.country-anguilla {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/anguilla.png");
+        }
+    }
+    &.country-algeria {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/algeria.png");
+        }
+    }
+    &.country-lithuania {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/lithuania.png");
+        }
+    }
+    &.country-micronesia {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/micronesia.png");
+        }
+    }
+    &.country-ecuador {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/ecuador.png");
+        }
+    }
+
+    &.country-arg,
+    &.country-ar,
+    &.country-argentina {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/argentina.png");
+        }
+    }
+    &.country-barbados {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/barbados.png");
+        }
+    }
+    &.country-portugal {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/portugal.png");
+        }
+    }
+    &.country-virgin-islands {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/virgin-islands.png");
+        }
+    }
+    &.country-singapore {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/singapore.png");
+        }
+    }
+    &.country-guatemala {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/guatemala.png");
+        }
+    }
+
+    &.country-mu,
+    &.country-mauritius {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/mauritius.png");
+        }
+    }
+    &.country-gibraltar {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/gibraltar.png");
+        }
+    }
+    &.country-trinidad-and-tobago {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/trinidad-and-tobago.png");
+        }
+    }
+    &.country-indonesia {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/indonesia.png");
+        }
+    }
+    &.country-lesotho {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/lesotho.png");
+        }
+    }
+    &.country-melilla {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/melilla.png");
+        }
+    }
+    &.country-chad {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/chad.png");
+        }
+    }
+    &.country-south-sudan {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/south-sudan.png");
+        }
+    }
+    &.country-poland {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/poland.png");
+        }
+    }
+    &.country-nicaragua {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/nicaragua.png");
+        }
+    }
+    &.country-niue {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/niue.png");
+        }
+    }
+    &.country-england {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/england.png");
+        }
+    }
+    &.country-turkmenistan {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/turkmenistan.png");
+        }
+    }
+    &.country-djibouti {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/djibouti.png");
+        }
+    }
+    &.country-san-marino {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/san-marino.png");
+        }
+    }
+    &.country-north-korea {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/north-korea.png");
+        }
+    }
+    &.country-bolivia {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/bolivia.png");
+        }
+    }
+    &.country-hu,
+    &.country-hungary {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/hungary.png");
+        }
+    }
+    &.country-saba-island {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/saba-island.png");
+        }
+    }
+    &.country-ethiopia {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/ethiopia.png");
+        }
+    }
+    &.country-venezuela {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/venezuela.png");
+        }
+    }
+    &.country-pitcairn-islands {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/pitcairn-islands.png");
+        }
+    }
+    &.country-uy,
+    &.country-uruguay {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/uruguay.png");
+        }
+    }
+    &.country-sardinia {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/sardinia.png");
+        }
+    }
+    &.country-dominican-republic {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/dominican-republic.png");
+        }
+    }
+
+    &.country-swe,
+    &.country-sweden {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/sweden.png");
+        }
+    }
+    &.country-iran {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/iran.png");
+        }
+    }
+    &.country-uzbekistn {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/uzbekistn.png");
+        }
+    }
+    &.country-gabon {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/gabon.png");
+        }
+    }
+    &.country-tibet {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/tibet.png");
+        }
+    }
+    &.country-liberia {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/liberia.png");
+        }
+    }
+    &.country-seychelles {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/seychelles.png");
+        }
+    }
+    &.country-northern-marianas-islands {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/northern-marianas-islands.png");
+        }
+    }
+    &.country-ossetia {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/ossetia.png");
+        }
+    }
+    &.country-namibia {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/namibia.png");
+        }
+    }
+    &.country-aland-islands {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/aland-islands.png");
+        }
+    }
+    &.country-zimbabwe {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/zimbabwe.png");
+        }
+    }
+    &.country-qatar {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/qatar.png");
+        }
+    }
+    &.country-norfolk-island {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/norfolk-island.png");
+        }
+    }
+    &.country-scotland {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/scotland.png");
+        }
+    }
+    &.country-sudan {
+        &:before {
+            background-image: url("//cdn-d.tentangle.com/content/country-icons/square/png/sudan.png");
+        }
+    }
+}

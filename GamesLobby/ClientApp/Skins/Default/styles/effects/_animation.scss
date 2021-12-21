@@ -1,0 +1,35 @@
+.fade {
+    &.out {
+        animation: fadeOut ease 250ms;
+        -webkit-animation: fadeOut ease 250ms;
+        -moz-animation: fadeOut ease 250ms;
+        -o-animation: fadeOut ease 250ms;
+        -ms-animation: fadeOut ease 250ms;
+    }
+
+    &.in {
+        animation: fadeIn ease 250ms;
+        -webkit-animation: fadeIn ease 250ms;
+        -moz-animation: fadeIn ease 250ms;
+        -o-animation: fadeIn ease 250ms;
+        -ms-animation: fadeIn ease 250ms;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

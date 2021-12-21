@@ -1,0 +1,28 @@
+div.sliding-menu {
+    position: absolute;
+    background: var(--surface);
+    transition: var(--default-animation);
+    top: 0px;
+    left: -100vw;
+    height: 100vh;
+    width: 100vw;
+    z-index: 100;
+
+    > header {
+        background: var(--surface-low);
+        padding: 10px;
+        display: flex;
+
+        .fa-times {
+            margin-left: auto;
+        }
+    }
+
+    > .body {
+        height: 100%;
+    }
+
+    &.open {
+        left: 0px;
+    }
+}

@@ -1,0 +1,17 @@
+.vertical {
+    > .icon {
+        & + .icon {
+            margin-left: unset;
+        }
+    }
+}
+
+.icon {
+    & + span {
+        margin-left: 6px;
+    }
+
+    & + .icon {
+        margin-left: 6px;
+    }
+}

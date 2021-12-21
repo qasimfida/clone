@@ -1,0 +1,8 @@
+html {
+    .application {
+        > footer {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

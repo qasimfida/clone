@@ -1,0 +1,14 @@
+@import "./_shadow.scss";
+@import "./_circular.scss";
+@import "./_geometry.scss";
+@import "./_border.scss";
+@import "./_animation.scss";
+
+.passive {
+    opacity: 0.5;
+}
+
+.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}

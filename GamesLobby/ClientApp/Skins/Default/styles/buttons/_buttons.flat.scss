@@ -1,0 +1,11 @@
+.button.flat {
+    background: transparent;
+    box-shadow: unset;
+    -border: 1px solid var(--secondary);
+}
+
+.button.confirm {
+    background: var(--primary);
+    color: var(--on-primary);
+}
+

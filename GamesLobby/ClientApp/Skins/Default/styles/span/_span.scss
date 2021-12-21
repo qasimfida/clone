@@ -1,0 +1,19 @@
+span.date {
+    width: 150px;
+}
+
+label + span {
+    color: var(--primary);
+    margin-left: 5px;
+}
+
+span + label {
+    margin-left: 10px;
+}
+
+span {
+    white-space: pre-wrap;
+}
+
+
+

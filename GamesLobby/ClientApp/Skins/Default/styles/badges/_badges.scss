@@ -1,0 +1,14 @@
+a.badge,
+span.badge {
+    width: 15px;
+    height: 15px;
+    background: var(--surface-med);
+    border-radius: 3px;
+    overflow: hidden;
+    font-size: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    user-select: none;
+}

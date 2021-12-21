@@ -1,0 +1,18 @@
+.price {
+    display: flex;
+    padding: 5px;
+    background: var(--surface);
+    cursor: pointer;
+    min-width: 70px;
+
+    &.selected {
+        background: var(--primary);
+        span {
+            color: var(--dark) !important;
+        }
+    }
+    span {
+        margin: auto;
+        color: var(--light);
+    }
+}

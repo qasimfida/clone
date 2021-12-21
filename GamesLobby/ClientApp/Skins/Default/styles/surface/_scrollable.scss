@@ -1,0 +1,7 @@
+.scrollable {
+    overflow: hidden;
+    overflow-y: auto !important;
+    > * {
+        width: calc(100% - 10px);
+    }
+}

@@ -1,0 +1,83 @@
+select,
+input,
+textarea {
+    outline: unset;
+    border: 1px solid var(--surface-med);
+    border-radius: var(--border-radius);
+    padding: 10px;
+    background: var(--surface);
+
+    color: var(--on-surface);
+
+    transition: all 0.3s;
+
+    &:focus {
+        border-color: var(--primary);
+        background: var(--surface-low) !important;
+        color: var(--light);
+
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    &::-webkit-calendar-picker-indicator {
+        filter: invert(1);
+    }
+
+    &:read-only {
+        background: transparent;
+        user-select: none !important;
+
+        &:focus {
+            color: unset !important;
+            background: transparent !important;
+            border: 1px solid var(--border-color) !important;
+            box-shadow: unset !important;
+        }
+    }
+}
+
+select {
+    flex: 1;
+    &:read-only {
+        background: var(--surface);
+    }
+}
+
+select option {
+    background: var(--surface-low);
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+input + .icon {
+    margin-left: 6px;
+}
+
+textarea {
+    width: 100%;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.react-datepicker-wrapper {
+    flex: 1;
+    display: flex !important;
+    align-self: stretch;
+
+    .react-datepicker__input-container {
+        display: flex;
+        align-self: stretch;
+        flex: 1;
+    }
+}
+.react-datepicker__tab-loop {
+    .react-datepicker__triangle {
+        display: none!important;
+    }
+}

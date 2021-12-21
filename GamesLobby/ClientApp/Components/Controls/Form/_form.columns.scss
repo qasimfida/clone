@@ -1,0 +1,33 @@
+form.col-2,
+form.col-3,
+form.col-4,
+form.col-5 {
+    flex-direction: row;
+    flex-flow: row wrap;
+    > * {
+        & + * {
+            margin-left: var(--margin);
+        }
+    }
+}
+
+form.col-2 {
+    > * {
+        flex: 1 1 41%;
+        margin: 10px !important;
+        max-width: calc(50% - 20px);
+    }
+}
+
+
+form.col-4 {
+    > * {
+        flex: 1 1 21%;
+        margin: 10px !important;
+        max-width: calc(25% - 20px);
+    }
+
+    > .between-columns {
+        flex: 1 auto;
+    }
+}

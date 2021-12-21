@@ -1,0 +1,25 @@
+
+html.compact {
+    height: -webkit-fill-available;
+
+    body {
+        overflow: hidden;
+        min-height: 100vh;
+        /* mobile viewport bug fix */
+        min-height: -webkit-fill-available;
+        flex-wrap: nowrap;
+    }
+
+    .application {
+        max-height: 100vh;
+        /* mobile viewport bug fix */
+        max-height: -webkit-fill-available;
+
+        overflow: hidden;
+    }
+
+    .page {
+        overflow: hidden;
+        overflow-y: auto;
+    }
+}

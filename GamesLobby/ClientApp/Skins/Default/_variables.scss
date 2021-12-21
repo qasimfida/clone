@@ -1,0 +1,65 @@
+$primary: #3dcdf9;
+$secondary: var(--color-blue-900);
+$tertiary: var(--color-yellow-400);
+
+$surface: #1e1e27;
+$surface-low: #252c36;
+$surface-med: #293d40;
+$surface-high: #8bced9;
+
+$on-surface: #5a868c;
+$on-surface-low: #98c0d4;
+$on-surface-med: #eee;
+$on-surface-high: #fff;
+
+$dark: #222128;
+
+:root {
+    --dark: #{$dark};
+    --surface: #{$surface};
+    --surface-low: #{$surface-low};
+    --surface-med: #{$surface-med};
+    --surface-high: #{$surface-high};
+
+    --on-surface: #{$on-surface};
+    --on-surface-high: #{$on-surface-high};
+    --on-surface-med: #{$on-surface-med};
+    --on-surface-low: #{$on-surface-low};
+
+    --light: #fff;
+    --light-med: #eee;
+    --light-low: #ccc;
+
+    // border
+    --border-color: #{$surface-med};
+    --border-radius: 4px;
+
+    //brand
+    --primary: #{$primary};
+    --on-primary: #1a2628;
+
+    --secondary: #{$secondary};
+    --on-secondary: #eee;
+
+    --tertiary: #{$tertiary};
+    --on-tertiary: #eee;
+
+    // spacing
+    --margin: 10px;
+
+    // colors
+    --color-error: var(--color-red-500);
+
+    // animation
+    --default-animation: all linear 300ms;
+
+    // sizes
+    --application-width: 1600px;
+
+    --padding: 30px;
+    --header-height: 70px;
+    --menu-height: 100px;
+
+    // alpha
+    --surface-high-low-alpha: #8bced911;
+}

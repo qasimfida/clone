@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Curious Apps</title>
+
+    <meta name="description" content="CuriousApps">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5,shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#060f34">
+    <meta name="msapplication-navbutton-color" content="#060f34">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#060f34">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <style>
+        body,
+        html {
+            background: 345376;
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+        }
+
+        body>.loading {
+            background-color: #345376;
+            position: fixed;
+            left: 0px;
+            right: 0px;
+            top: 0px;
+            bottom: 0px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        body>.loading>.logo-back {
+            position: fixed;
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%) scale(0.8);
+            transform-origin: center;
+            animation: createBox 1s;
+            animation-iteration-count: 1;
+        }
+
+        body>.loading>.logo {
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+       
+    </style>
+    <script src="https://kit.fontawesome.com/7e419cee7f.js" crossorigin="anonymous"></script>
+    <link link rel="preconnect" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
+    <script>
+        try {
+            var store = localStorage.getItem('___app');
+            store = JSON.parse(store);
+            window.defaultLanguage = store.language;
+            window.selectedLanguage = store.language;
+            window.selectedLanguageMin = store.language.split('-')[0];
+        } catch (err) {
+            window.defaultLanguage = 'tr-Tr';
+            window.selectedLanguage = 'tr-Tr';
+            window.selectedLanguageMin = 'tr';
+        }
+    </script>
+</head>
+
+<body id='body'>
+    <div class='loading'>
+        <div class='logo-back'>
+            <img src='http://cdn-d.tentangle.com/CuriousApps/brand/logo-back.png' />
+        </div>
+        <div class='logo'>
+            <img src='http://cdn-d.tentangle.com/CuriousApps/brand/logo.png' />
+        </div>
+    </div>
+</body>
+
+</html>

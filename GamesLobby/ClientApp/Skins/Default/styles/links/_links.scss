@@ -1,0 +1,76 @@
+a {
+    font-size: 10px;
+    color: var(--primary);
+    cursor: pointer;
+    text-decoration: unset;
+
+    &:hover {
+        color: var(--primary);
+    }
+
+    &.active,
+    &:active {
+        color: var(--primary);
+    }
+}
+
+.link-group {
+    a + a {
+        margin-left: 10px;
+    }
+
+    &.separator {
+        a + a {
+            padding-left: 10px;
+            border-left: 1px solid var(--border-color);
+        }
+    }
+
+    &.underlined {
+        > .active {
+            position: relative;
+
+            &:before {
+                content: " ";
+                position: absolute;
+                left: 12px;
+                right: 0px;
+                height: 2px;
+                display: block;
+                bottom: -12px;
+                background: var(--primary);
+                box-shadow: 0px 0px 20px 1px var(--primary);
+            }
+        }
+    }
+}
+
+// flex
+.flex.vertical {
+    > .link-group {
+        margin-left: unset;
+        margin-top: 10px;
+    }
+}
+
+.clickable {
+    cursor: pointer;
+    transition: var(--default-animation);
+
+    &.active,
+    &:hover {
+        color: var(--primary);
+    }
+
+    &:hover {
+        color: var(--light);
+    }
+}
+
+
+
+
+
+
+
+@import './navigation';

@@ -1,0 +1,92 @@
+@import "./_form.columns.scss";
+
+form {
+    padding: unset;
+    margin: unset;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form {
+    .row {
+        display: flex;
+        gap: var(--margin);
+        flex: 1 100%;
+        margin: unset;
+    }
+}
+
+form.vertical,
+.row.vertical {
+    .form-group {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+        input,
+        textarea,
+        select {
+            align-self: normal;
+        }
+
+        label {
+            width:unset;
+        }
+    }
+}
+
+.form-group {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    gap: 10px;
+    label {
+        transition: var(--default-animation);
+        color: var(--on-surface);
+        width: 30%;
+    }
+
+    input {
+        flex: 1;
+    }
+
+    &:focus-within {
+        label {
+            color: var(--light);
+        }
+    }
+}
+
+// validation
+form {
+    .form-group {
+        &.validation-error {
+            label,
+            input {
+                color: var(--color-error);
+            }
+
+            input {
+                border-color: var(--color-error);
+            }
+        }
+    }
+}
+
+form.small {
+    max-width: 50vw;
+}
+
+.form-group {
+    &.error {
+        flex-wrap: wrap;
+        .error {
+            width: 100%;
+            flex: 1 auto;
+            padding-top: 4px;
+            color: var(--color-red-900);
+            text-align: right;
+        }
+    }
+}

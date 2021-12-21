@@ -1,0 +1,22 @@
+.alerts {
+    position: relative;
+    .badge {
+        position: absolute;
+        right: -10px;
+        top: 10px;
+        pointer-events: non;
+    }
+
+    ul {
+        position: fixed;
+        right: 10px;
+        z-index: 100;
+
+        li {
+            min-width: 200px;
+            .title {
+                color: var(--primary);
+            }
+        }
+    }
+}

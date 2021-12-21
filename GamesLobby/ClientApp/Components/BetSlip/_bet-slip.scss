@@ -1,0 +1,151 @@
+.card.slip {
+    min-width: 250px;
+
+    background: var(--dark);
+    align-self: stretch;
+
+    > header {
+        display: flex;
+        flex-direction: row !important;
+        padding: 0px;
+
+        > nav {
+            display: flex;
+            > a {
+                position: relative;
+
+                span {
+                    width: unset !important;
+                    max-width: unset;
+                }
+                
+                &.active {
+                    background: var(--dark) !important;
+                }
+            }
+        }
+    }
+}
+
+.card.slip {
+    > .body {
+        background: unset;
+        > ul {
+            display: flex;
+            flex-direction: column;
+            background: transparent !important;
+            li {
+                padding: 10px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                border-bottom: 1px solid var(--border-color);
+                span.bet-slip-span {
+                    color: #6abac9;
+                    font-size: 16px;
+                    text-transform: uppercase;
+                }
+                div.bet-forecast-div {
+                    margin: 8px 0;
+                    font-size: 12px;
+                    font-weight: 100;
+                    color: var(--light);
+                    text-transform: uppercase;
+                }
+                div.bet-sequence-div {
+                    font-size: 12px;
+                    font-weight: 100;
+                    color: var(--light);
+                    text-transform: uppercase;
+                }
+                div.bet-return-div {
+                    font-size: 15px;
+                    color: var(--light);
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    span {
+                        font-weight: 100 !important;
+                    }
+                }
+                .bet-counter {
+                    display: flex;
+                    align-items: center;
+                    margin: 8px 0;
+                    input {
+                        background: #47595a;
+                        font-size: 15px;
+                        color: #fff;
+                        width: 100px;
+                        text-align: center;
+                        height: 30px;
+                        margin: 0 15px;
+                    }
+                    .bet-counter-icon {
+                        font-size: 24px;
+                        cursor: pointer;
+                        border-radius: 100%;
+                        width: 26px;
+                        height: 26px;
+                        text-align: center;
+                        line-height: 26px;
+                        border: 3px solid #1f99e6;
+                        color: #1f99e6;
+                        text-shadow: 0px 0px 2px #5278ff;
+                    }
+                }
+            }
+            li:last-child {
+                border-bottom: 3px solid #7ac7cd !important;
+            }
+        }
+    }
+}
+
+.card.slip {
+    > header {
+        > nav {
+            > a {
+                .counter {
+                    position: absolute;
+                    right: 5px;
+                    top: 8px;
+                    color: var(--dark);
+                    z-index: 3;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    i {
+                        font-size: 10px;
+                        position: relative;
+                        z-index: 4;
+                        margin: auto;
+                        font-style: normal !important;
+                    }
+                    &:before {
+                        z-index: 1;
+                        position: absolute;
+                        border-radius: 100px;
+                        content: " ";
+                        width: 14px;
+                        height: 14px;
+                        background: var(--primary);
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.card.slip {
+    .summary {
+        .stake {
+            label, span {
+                font-size: 14px;
+                text-transform: uppercase;
+                font-weight: 100;
+                color: var(--light);
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+.application > header {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    transition: var(--default-animation);
+
+    width: var(--application-width);
+
+    max-width: var(--application-width);
+    .balance {
+        font-size: 14px;
+        font-weight: 600;
+        color: #09f004;
+        margin-right: 12px;
+        text-shadow: 0 0 3px #09f004;
+        span {
+            color: white;
+            margin-right: 5px;
+        }
+    }
+}
+
+.application > header {
+    .time {
+        font-size: 14px;
+        font-weight: 600;
+        margin-left: 10px;
+        min-width: 100px;
+    }
+}
+
+.application > header {
+    > nav {
+        display: flex;
+        gap: 5px;
+        .brand {
+            height: 60px;
+            max-height: 60px;
+        }
+        
+        img.nav-dog-img, img.nav-bike-img {
+            max-width: 60px;
+            position: relative;
+            left: 0;
+        }
+        
+    }
+}
+

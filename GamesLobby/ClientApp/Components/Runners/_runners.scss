@@ -1,0 +1,72 @@
+div.runners {
+    align-self: stretch;
+    flex: 1;
+    width: 100%;
+
+    > header {
+        display: flex;
+        flex-direction: row !important;
+        padding: 0px;
+        background: transparent;
+
+        > nav {
+            display: flex;
+            > a {
+                span {
+                    width: unset !important;
+                    max-width: unset;
+                }
+
+                &.active {
+                    background: var(--dark) !important;
+                }
+            }
+        }
+    }
+    > .body {
+        background-color: var(--dark);
+    }
+
+    table {
+        tr {
+            background: transparent !important;
+            td {
+                background: transparent !important;
+            }
+            td:first-child {
+                width: 1%;
+            }
+        }
+        th {
+            background: unset !important;
+        }
+
+        th.column-prices,
+        td.column-prices {
+            > div {
+                display: flex;
+                gap: 5px;
+            }
+            > div.forecast,
+            > div.tricast {
+                > div {
+                    background: var(--surface);
+                    width: 30px;
+                    height: 30px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 10px;
+                }
+            }
+
+            .forecast,
+            .tricast {
+                .selected {
+                    background: var(--primary);
+                    color: var(--on-primary);
+                }
+            }
+        }
+    }
+}

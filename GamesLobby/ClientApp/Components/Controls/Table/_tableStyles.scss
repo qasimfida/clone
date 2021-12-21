@@ -1,0 +1,102 @@
+.table-row.error {
+    .table-col {
+        background: var(--color-red-100) !important;
+    }
+
+    &:hover {
+        .table-col {
+            background: var(--color-red-200) !important;
+        }
+    }
+
+    &.selected {
+        .table-col {
+            background: var(--color-red-400) !important;
+        }
+    }
+}
+
+table {
+    tr.row-expanded,
+    tr.row-highlighted {
+        background: linear-gradient(90deg, var(--surface-high) 0%, var(--surface-med) 0.1%) !important;
+
+        td {
+            color: var(--primary) !important;
+        }
+    }
+
+    tr.row-expanded-item {
+        > td {
+            padding: unset;
+        }
+    }
+}
+
+table {
+    tr.row-flash {
+        td {
+            animation: blinker 1s linear 1;
+            color: var(--primary) !important;
+        }
+    }
+}
+
+@keyframes blinker {
+    0% {
+        background: var(--color-green-900);
+    }
+
+    100% {
+        background: rgba(0, 0, 0, 0);
+    }
+}
+
+.expanded-table {
+    th {
+        width: 200px;
+    }
+
+    td {
+        width: unset !important;
+    }
+
+    .no-padding {
+        padding: unset !important;
+    }
+}
+
+table {
+    &.borderless {
+        border: unset !important;
+
+        > tbody {
+            > tr {
+                border: unset !important;
+            }
+        }
+    }
+
+    &.transparent {
+        > tbody {
+            > tr {
+                background: unset !important;
+
+                &:hover {
+                    background: unset !important;
+                }
+            }
+        }
+    }
+}
+
+table {
+    .column-id {
+        width: 80px;
+    }
+
+    tr td:last-child {
+        width: 1%!important;
+        white-space: nowrap;
+    }
+}

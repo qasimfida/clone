@@ -1,0 +1,63 @@
+.input.check {
+    border: 2px solid var(--primary);
+    border-radius: 3px;
+    width: 18px;
+    height: 18px;
+    position: relative;
+    display: flex;
+    justify-items: center;
+    cursor: pointer;
+    transition: var(--default-animation);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+
+    svg {
+        color: var(--on-primary);
+        margin: auto;
+        pointer-events: none;
+        transform: scale(0.7);
+        z-index: 2;
+        position: relative;
+    }
+
+    &.checked {
+        border: 2px solid var(--primary);
+        color: var(--primary);
+
+        svg {
+            color: var(--on-secondary);
+        }
+
+        &:hover {
+            .--before {
+                opacity: 0.06;
+            }
+        }
+    }
+
+    .--before {
+        position: absolute;
+
+        pointer-events: none;
+        width: 20px;
+        height: 20px;
+        border-radius: 50px;
+        background: var(--primary);
+        transition: var(--default-animation);
+        opacity: 0;
+
+        left: -3px;
+        top: -3px;
+        transform-origin: center;
+    }
+
+    &:hover {
+        .--before {
+            transform: scale(2);
+            opacity: 0.05;
+        }
+    }
+}

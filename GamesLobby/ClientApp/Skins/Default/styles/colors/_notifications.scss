@@ -1,0 +1,22 @@
+.information {
+    color: var(--color-blue-400) !important;
+}
+
+.success {
+    color: var(--color-green-400) !important;
+}
+
+.warning {
+    color: var(--color-orange-900) !important;
+}
+
+.critical {
+    color: var(--color-red-900) !important;
+}
+
+.surface {
+    &.critical {
+        background: var(--color-red-900) !important;
+        color: #fff !important;
+    }
+}

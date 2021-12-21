@@ -1,0 +1,110 @@
+$margin: var(--margin);
+$margin-half: calc(var(--margin) / 2);
+
+.margin {
+    margin: $margin;
+
+    &.half {
+        margin: $margin-half;
+    }
+}
+
+.margin-left {
+    margin-left: $margin;
+
+    &.half {
+        margin-left: $margin-half;
+    }
+}
+
+.margin-right {
+    margin-right: $margin;
+
+    &.half {
+        margin-right: $margin-half;
+    }
+}
+
+.margin-top {
+    margin-top: $margin !important;
+
+    &.half {
+        margin-top: $margin-half;
+    }
+}
+
+.margin-bottom {
+    margin-bottom: $margin;
+
+    &.half {
+        margin-bottom: $margin-half;
+    }
+}
+
+.padding {
+    padding: $margin;
+
+    &.half {
+        padding: $margin-half;
+    }
+}
+
+.padding-left {
+    padding-left: $margin;
+    &.half {
+        padding-left: $margin-half;
+    }
+}
+
+.padding-top {
+    padding-top: $margin;
+    &.half {
+        padding-top: $margin-half;
+    }
+}
+.padding-right {
+    padding-right: $margin;
+    &.half {
+        padding-right: $margin-half;
+    }
+}
+
+// alignment
+.center {
+    margin: auto;
+}
+
+.align-left {
+    margin-right: auto;
+}
+
+.align-right {
+    margin-left: auto;
+
+    & + .align-right {
+        margin-left: var(--margin);
+    }
+}
+
+.align-bottom {
+    margin-top: auto;
+}
+
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+    transform: translate(50%, -50%);
+    &.center {
+        top: 50%;
+    }
+}
+
+$margin: 10px;
+
+.margin {
+    &.bottom {
+        margin-bottom: $margin;
+    }
+}

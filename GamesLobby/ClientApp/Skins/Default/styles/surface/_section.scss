@@ -1,0 +1,22 @@
+
+section.busy {
+    opacity: 0.5;
+    pointer-events: none;
+    header {
+        > * {
+            background: var(--surface-low);
+            color: var(--surface-low);
+        }
+    }
+    .body {
+        > * {
+            background: var(--surface-med);
+            color: var(--surface-med);
+        }
+    }
+
+    button {
+        background: var(--surface-low);
+        color: var(--surface-low);
+    }
+}
